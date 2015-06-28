@@ -51,7 +51,7 @@
 
   <ThingDef ParentName="HatBase">
     <defName>Apparel_PowerArmorHelmetMKII</defName>
-    <label>power armor helmet</label>
+    <label>power armor helmet MKII</label>
     <description>A part of power armor set, mostly used by heavy infantry. The MKII version contains a more efficient armour weave.</description>
     <graphicData>
       <texPath>Things/PowerArmorHelmetMKII</texPath>
@@ -90,7 +90,7 @@
       <options>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.33,0.33,0.33,1)</only>
+          <only>RGBA(0.6,0.13,0.13,1)</only>
         </li>
       </options>
     </colorGenerator>

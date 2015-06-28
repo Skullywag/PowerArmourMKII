@@ -51,7 +51,7 @@
   
   <ThingDef ParentName="ApparelBase">
     <defName>Apparel_PowerArmorMKII</defName>
-    <label>power armor</label>
+    <label>power armor MKII</label>
     <description>Powered armor usually used by assault troops from advanced glitterworld planets. The MKII version contains more efficent servos and a more efficient armour weave.</description>
     <graphicData>
       <texPath>Things/PowerArmorMKII</texPath>
@@ -95,7 +95,7 @@
       <options>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.33,0.33,0.33,1)</only>
+          <only>RGBA(0.6,0.13,0.13,1)</only>
         </li>
       </options>
     </colorGenerator>
