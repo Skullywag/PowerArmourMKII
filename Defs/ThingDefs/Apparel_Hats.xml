@@ -74,7 +74,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</worngraphicPath>
+      <worngraphicPath>Things/PowerArmorHelmetMKII</worngraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
