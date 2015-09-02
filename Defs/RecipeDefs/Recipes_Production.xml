@@ -10,6 +10,12 @@
     <workSpeedStat>SmithingSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
+    <skillRequirements>
+      <li>
+        <skill>Crafting</skill>
+        <minLevel>12</minLevel>
+      </li>
+    </skillRequirements>
     <workSkill>Crafting</workSkill>
     <recipeUsers>
       <li>TableMachining</li>
@@ -52,6 +58,12 @@
     <workSpeedStat>SmithingSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
+    <skillRequirements>
+      <li>
+        <skill>Crafting</skill>
+        <minLevel>12</minLevel>
+      </li>
+    </skillRequirements>
     <workSkill>Crafting</workSkill>
     <recipeUsers>
       <li>TableMachining</li>

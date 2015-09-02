@@ -28,9 +28,6 @@
         <compClass>CompForbiddable</compClass>
       </li>
       <li>
-        <compClass>CompColorable</compClass>
-      </li>
-      <li>
         <compClass>CompQuality</compClass>
       </li>
     </comps>
@@ -86,14 +83,6 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-    <colorGenerator Class="ColorGenerator_Options">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>RGBA(0.6,0.13,0.13,1)</only>
-        </li>
-      </options>
-    </colorGenerator>
   </ThingDef>
 
 </ThingDefs>
