@@ -3,7 +3,7 @@
 
   <RecipeDef>
     <defName>RepairArmourMKII</defName>
-    <label>repair power armour</label>
+    <label>repair power armour MKII</label>
     <description>Use plasteel to reinforce worn power armour.</description>
     <jobString>Reapiring power armour.</jobString>
     <workAmount>3000</workAmount>
