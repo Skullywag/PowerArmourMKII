@@ -3,7 +3,7 @@
 
   <RecipeDef>
     <defName>RepairArmourMKII</defName>
-    <label>repair power armour</label>
+    <label>repair power armour MKII</label>
     <description>Use plasteel to reinforce worn power armour.</description>
     <jobString>Reapiring power armour.</jobString>
     <workAmount>3000</workAmount>
@@ -27,7 +27,7 @@
             <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>100</count>
+        <count>75</count>
       </li>
       <li>
         <filter>
@@ -37,6 +37,14 @@
         </filter>
         <count>1</count>
       </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Components</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
     </ingredients>
     <products>
       <Apparel_PowerArmorMKII>1</Apparel_PowerArmorMKII>
@@ -45,6 +53,7 @@
       <thingDefs>
         <li>Plasteel</li>
         <li>Apparel_PowerArmorMKII</li>
+        <li>Components</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
@@ -85,6 +94,14 @@
         </filter>
         <count>1</count>
       </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Components</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
     </ingredients>
     <products>
       <Apparel_PowerArmorHelmetMKII>1</Apparel_PowerArmorHelmetMKII>
@@ -93,8 +110,9 @@
       <thingDefs>
         <li>Plasteel</li>
         <li>Apparel_PowerArmorHelmetMKII</li>
+        <li>Components</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  
+
 </RecipeDefs>

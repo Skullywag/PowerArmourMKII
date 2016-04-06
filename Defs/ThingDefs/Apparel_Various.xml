@@ -33,20 +33,20 @@
     </comps>
   </ThingDef>
 
-  <ThingDef Name="ApparelMakeableBase" ParentName="ApparelBase" Abstract="True">
+  <ThingDef Name="ArmorMakeableBase" ParentName="ApparelBase" Abstract="True">
     <recipeMaker>
-      <workSpeedStat>TailoringSpeed</workSpeedStat>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
-      <effectWorking>Tailor</effectWorking>
-      <soundWorking>Recipe_Tailor</soundWorking>
-        <recipeUsers>
-        <li>TableTailor</li>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
     </recipeMaker>
   </ThingDef>
   
-  <ThingDef ParentName="ApparelBase">
+  <ThingDef ParentName="ArmorMakeableBase">
     <defName>Apparel_PowerArmorMKII</defName>
     <label>power armor MKII</label>
     <description>Powered armor usually used by assault troops from advanced glitterworld planets. The MKII version contains more efficent servos and a more efficient armour weave.</description>
@@ -54,6 +54,10 @@
       <texPath>Things/PowerArmorMKII</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <costList>
+      <Components>10</Components>
+      <Plasteel>150</Plasteel>
+    </costList>
     <statBases>
       <MaxHitPoints>500</MaxHitPoints>
       <MarketValue>6000</MarketValue>

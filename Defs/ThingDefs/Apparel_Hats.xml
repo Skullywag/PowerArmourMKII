@@ -33,27 +33,18 @@
     </comps>
   </ThingDef>
 
-  <ThingDef Name="ApparelMakeableBase" ParentName="HatBase" Abstract="True">
-    <recipeMaker>
-      <workSpeedStat>TailoringSpeed</workSpeedStat>
-      <workSkill>Crafting</workSkill>
-      <effectWorking>Tailor</effectWorking>
-      <soundWorking>Recipe_Tailor</soundWorking>
-      <recipeUsers>
-        <li>TableTailor</li>
-      </recipeUsers>
-      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-    </recipeMaker>
-  </ThingDef>
-
   <ThingDef ParentName="HatBase">
     <defName>Apparel_PowerArmorHelmetMKII</defName>
     <label>power armor helmet MKII</label>
-    <description>A part of power armor set, mostly used by heavy infantry. The MKII version contains a more efficient armour weave.</description>
+    <description>A part of a power armor set, mostly used by heavy infantry. The MKII version contains a more efficient armour weave.</description>
     <graphicData>
       <texPath>Things/PowerArmorHelmetMKII</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <costList>
+      <Components>4</Components>
+      <Plasteel>50</Plasteel>
+    </costList>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <MarketValue>2500</MarketValue>
@@ -75,7 +66,7 @@
       <layers>
         <li>Overhead</li>
       </layers>
-      <commonality>2</commonality>
+      <commonality>1</commonality>
       <tags>
         <li>Military</li>
       </tags>
