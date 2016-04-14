@@ -1,39 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ThingDefs>
 
-  <ThingDef Name="HatBase" Abstract="True">
-    <thingClass>Apparel</thingClass>
-    <category>Item</category>
-    <selectable>True</selectable>
-    <pathCost>10</pathCost>
-    <useHitPoints>True</useHitPoints>
-    <graphicData>
-      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-    </graphicData>
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <Flammability>1.0</Flammability>
-      <DeteriorationRate>1</DeteriorationRate>
-      <SellPriceFactor>0.5</SellPriceFactor>
-    </statBases>
-    <altitudeLayer>Item</altitudeLayer>
-    <alwaysHaulable>True</alwaysHaulable>
-    <tickerType>Never</tickerType>
+  <ThingDef Name="ArmorHelmetMakeableBase" ParentName="ArmorMakeableBase" Abstract="True">
     <thingCategories>
       <li>Headgear</li>
     </thingCategories>
-    <comps>
-      <li>
-        <compClass>CompForbiddable</compClass>
-      </li>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-    </comps>
   </ThingDef>
 
-  <ThingDef ParentName="HatBase">
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_PowerArmorHelmetMKII</defName>
     <label>power armor helmet MKII</label>
     <description>A part of a power armor set, mostly used by heavy infantry. The MKII version contains a more efficient armour weave.</description>
@@ -42,8 +16,8 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
-      <Components>4</Components>
-      <Plasteel>50</Plasteel>
+      <Components>9</Components>
+      <Plasteel>70</Plasteel>
     </costList>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>

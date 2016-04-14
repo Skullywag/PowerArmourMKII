@@ -14,18 +14,16 @@
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <Flammability>1.0</Flammability>
-      <DeteriorationRate>1</DeteriorationRate>
+      <DeteriorationRate>2</DeteriorationRate>
       <SellPriceFactor>0.5</SellPriceFactor>
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
     <alwaysHaulable>True</alwaysHaulable>
     <tickerType>Never</tickerType>
-    <thingCategories>
-      <li>Apparel</li>
-    </thingCategories>
     <comps>
+      <li Class="CompProperties_Forbiddable"/>
       <li>
-        <compClass>CompForbiddable</compClass>
+        <compClass>CompColorable</compClass>
       </li>
       <li>
         <compClass>CompQuality</compClass>
@@ -55,7 +53,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
-      <Components>10</Components>
+      <Components>20</Components>
       <Plasteel>150</Plasteel>
     </costList>
     <statBases>
