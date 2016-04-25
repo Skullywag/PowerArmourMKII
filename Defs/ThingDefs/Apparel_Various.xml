@@ -52,11 +52,16 @@
       <texPath>Things/PowerArmorMKII</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+    </recipeMaker>
     <costList>
       <Components>20</Components>
       <Plasteel>150</Plasteel>
     </costList>
     <statBases>
+      <WorkToMake>40000</WorkToMake>
       <MaxHitPoints>500</MaxHitPoints>
       <MarketValue>6000</MarketValue>
       <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
@@ -68,6 +73,9 @@
       <MoveSpeed>+0.05</MoveSpeed>
       <WorkSpeedGlobal>+0.05</WorkSpeedGlobal>
     </equippedStatOffsets>
+     <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>

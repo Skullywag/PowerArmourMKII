@@ -15,6 +15,10 @@
       <texPath>Things/PowerArmorHelmetMKII</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+    </recipeMaker>
     <costList>
       <Components>9</Components>
       <Plasteel>70</Plasteel>
@@ -22,6 +26,7 @@
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <MarketValue>2500</MarketValue>
+      <WorkToMake>22000</WorkToMake>
       <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.65</ArmorRating_Sharp>
       <ArmorRating_Heat>0.55</ArmorRating_Heat>
