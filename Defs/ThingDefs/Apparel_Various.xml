@@ -57,7 +57,7 @@
       <researchPrerequisite>PoweredArmor</researchPrerequisite>
     </recipeMaker>
     <costList>
-      <Components>20</Components>
+      <Component>20</Component>
       <Plasteel>150</Plasteel>
     </costList>
     <statBases>

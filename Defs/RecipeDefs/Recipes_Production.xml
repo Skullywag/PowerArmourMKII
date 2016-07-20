@@ -40,7 +40,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Components</li>
+            <li>Component</li>
           </thingDefs>
         </filter>
         <count>5</count>
@@ -53,7 +53,7 @@
       <thingDefs>
         <li>Plasteel</li>
         <li>Apparel_PowerArmorMKII</li>
-        <li>Components</li>
+        <li>Component</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
@@ -97,7 +97,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Components</li>
+            <li>Component</li>
           </thingDefs>
         </filter>
         <count>2</count>
@@ -110,7 +110,7 @@
       <thingDefs>
         <li>Plasteel</li>
         <li>Apparel_PowerArmorHelmetMKII</li>
-        <li>Components</li>
+        <li>Component</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
